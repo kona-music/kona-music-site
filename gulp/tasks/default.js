@@ -4,5 +4,6 @@ var gulp = require('gulp'),
 // Build Production Files, the Default Task
 gulp.task('default', function () {
   // runSequence('clean', ['fileinclude', 'copy', 'images', 'styles']);
-  runSequence('clean', ['html', 'css', 'fonts', 'js', 'images', 'videos', 'cname'], 'watch');
+  // runSequence('clean', ['html', 'css', 'fonts', 'js', 'images', 'videos', 'cname'], 'watch');
+  runSequence('clean', ['html', 'fonts', 'images', 'videos', 'cname'], 'watch');
 });
