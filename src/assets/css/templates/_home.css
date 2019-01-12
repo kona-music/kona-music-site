@@ -1,0 +1,8 @@
+svg.foundry-logo {
+  display: block;
+  width: 100%;
+  path {
+    &.text-foundry { fill: $c-pallete1; }
+    &.text-salon-coop { fill: #d5c1a5; }
+  }
+}
