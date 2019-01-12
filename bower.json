@@ -1,11 +1,11 @@
 {
-  "name": "Foundry Hair",
-  "version": "1.0.0",
-  "homepage": "https://github.com/taylorkmho/foundryhair",
+  "name": "konamusic",
+  "homepage": "https://github.com/niwong/konasmusic-site",
   "authors": [
-    "Taylor Ho <taylorkmho@gmail.com>"
+    "niwong <nick@nickwong.io>"
   ],
-  "description": "A website for Kailua hair salon, Foundry Hair.",
+  "description": "A website for Kona's music",
+  "main": "",
   "license": "MIT",
   "ignore": [
     "**/.*",
@@ -13,22 +13,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "fastclick": "~1.0.6",
-    "normalize.css": "~3.0.3",
-    "bLazy": "blazy#^1.5.4",
-    "instafeed.js": "^1.4.1"
-  },
-  "overrides": {
-    "modernizr": {
-      "main": "modernizr.js"
-    },
-    "jquery": {
-      "main": "dist/jquery.min.js"
-    },
-    "gsap": {
-      "main": "src/minified/TweenMax.min.js"
-    }
-  }
+  ]
 }
