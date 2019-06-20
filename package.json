@@ -17,9 +17,9 @@
   "author": "Nick Wong",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/niwong/konasmusic-site/issues"
+    "url": "https://github.com/kona-music/kona-music-site.git"
   },
-  "homepage": "https://github.com/niwong/konasmusic-site#readme",
+  "homepage": "https://github.com/kona-music/kona-music-site.git/#readme",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.26.3",
