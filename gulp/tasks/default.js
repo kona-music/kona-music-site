@@ -5,5 +5,5 @@ var gulp = require('gulp'),
 gulp.task('default', function () {
   // runSequence('clean', ['fileinclude', 'copy', 'images', 'styles']);
   // runSequence('clean', ['html', 'css', 'fonts', 'js', 'images', 'videos', 'cname'], 'watch');
-  runSequence('clean', ['html', 'fonts', 'images', 'videos', 'cname'], 'watch');
+  runSequence('clean', ['html', 'css', 'fonts', 'js', 'images', 'cname'], 'watch');
 });

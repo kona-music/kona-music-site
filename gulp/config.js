@@ -13,13 +13,13 @@ var paths = {
 };
 
 paths.src = {
+  scss: paths.base.src + 'assets/scss',
   css: paths.base.src + 'assets/css',
-  // data: paths.base.src + 'data',
   fonts: paths.base.src + 'assets/fonts',
   js: paths.base.src + 'assets/js',
   images: paths.base.src + 'assets/images',
   videos: paths.base.src + 'assets/videos',
-  html: paths.base.src + 'html'
+  html: paths.base.src + ''
 };
 
 paths.dist = {
